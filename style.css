@@ -1,0 +1,173 @@
+/******************************************************************************
+BLOG SPECIFIC STYLES START HERE 
+******************************************************************************/
+.facetParent div {
+    display: none; // used to hide sub-menus
+ 
+}
+
+div.facetchild { /************* CHANGE *****************/
+	margin-top:20px;
+}
+/* Left col: Filter for university page */
+.hdr-leftcol-filter {
+  background: #faf6ef;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #382b2b;
+}
+.hdr-leftcol-filter .step-num {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.hdr-leftcol-filter i {
+  margin-right: 10px;
+}
+
+/* Left Col: Filter content: University page */
+.content-leftcol-filter {
+  border-bottom: 4px double #e0d6bd;
+  font-size: 13px;
+}
+.content-leftcol-filter .close {
+  position: relative;
+  top: -2px;
+  right: 10px;
+  line-height: 20px;
+}
+.content-leftcol-filter:last-child {
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+.content-leftcol-filter ul {
+  margin-left: 0;
+}
+.content-leftcol-filter li {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  list-style: none;
+  padding: 8px 0;
+}
+.content-leftcol-filter .img-logo img {
+  float: left;
+  width: 50px;
+  margin-right: 10px;
+}
+.content-leftcol-filter .nav-list {
+  padding-left: 0;
+}
+.content-leftcol-filter .nav-list li {
+  margin-bottom: 0;
+  border-bottom: 1px solid #f2ede1;
+}
+.content-leftcol-filter .nav-list li:last-child {
+  border-bottom: none;
+}
+.content-leftcol-filter .nav-list li.active a {
+  padding-left: 0;
+  padding-right: 0;
+}
+.content-leftcol-filter .dropdown-menu li {
+  margin-left: 0;
+}
+.content-leftcol-filter .up-slider-txtbox {
+  width: 25px;
+  font-size: 11px;
+  padding: 0px 0px 0px 2px;
+  margin: 0px 0px 3px 0px;
+}
+.content-leftcol-filter .up-slider-container {
+  margin-left: -15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 8px;
+  width: 90%;
+}
+.content-leftcol-filter #distance, .content-leftcol-filter #addressString {
+  width: 80%;
+}
+.content-leftcol-filter .txt-note {
+  margin: 20px 10px 0 10px;
+  padding: 10px 0 0 0;
+  color: #382b2b;
+  border-top: 1px dotted #e0d6bd;
+}
+
+/* For alert boxes inside filter modules */
+.content-leftcol-filter.alert {
+  border-top: none;
+  padding-right: 10px;
+}
+
+/* Left Col: Click to Filter section */
+.bs-docs-sidenav > li > a {
+  display: inline-block; /************* CHANGE *****************/
+  height:20px;
+  line-height:20px;
+  margin-bottom: 20px;
+  margin: 0 0 -1px;
+  padding: 0px 0px;
+}
+.bs-docs-sidenav > li > a:hover {
+  color: #c90016;
+  background-color: transparent;
+}
+.bs-docs-sidenav > .active > a {
+  position: relative;
+  z-index: 2;
+  padding: 0px 15px;
+  border: 0;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.bs-docs-sidenav .checked {
+  color: #c90016;
+  text-shadow: none;
+}
+.bs-docs-sidenav .showFacet {
+  display: block;
+}
+.bs-docs-sidenav a:hover .icon-chevron-right {
+  opacity: .9;
+}
+.bs-docs-sidenav .icon-chevron-right {
+  float: right;
+  color: #382b2b;
+  margin-top: 2px;
+  margin-right: -6px;
+  opacity: .2;
+}
+
+/* Styles added when majors and online resources were linked */
+.bdy-browsemajors .bs-docs-sidenav > li > .label-warning {
+  display: inline;
+}
+
+.bdy-browsemajors .bs-docs-sidenav > li.active > .label-warning {
+  padding: 2px 6px;
+}
+.bdy-browsemajors .bs-docs-sidenav > li.active > .label-warning:hover {
+  color: #ffffff;
+}
+
+/* Styles for browse Expert Corner */
+.bdy-browse-expert .bs-docs-sidenav > li > a {
+  display: inline-block;
+}
+.bdy-browse-expert .bs-docs-sidenav > li > a:hover {
+  background-color: transparent;
+}
+
+.facetchild {
+  margin-left: 5px;
+  font-size: 11px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.facetchild label.checkbox {
+  padding-left: 30px;
+}
+
+.ui-widget-header {
+  background-color: #faf6ef;
+}
+
