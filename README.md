@@ -1,9 +1,12 @@
 # touch-friendly-navigation
 
-Code to create a touch friendly navigation that works across touch devices. Based on the projects I have posted on my code blog http://www.femkreations.com/blog/
+Code to create a touch friendly navigation that works across touch devices. Based on the project I posted on my code blog: http://www.femkreations.com/touch-friendly-responsive-navigation-menu/
 
-Think your next project could benefit from my skills? Hire Me!
+For more blog posts visit: http://www.femkreations.com/blog/
 
-My portfolio is at http://femKreations.com
+Think your next project could benefit from my skills? <a href="http://www.femkreations.com/contact/">Hire Me!</a>
 
-Thanks Femy
+Check out my portfolio at http://femKreations.com
+
+Thanks 
+Femy
